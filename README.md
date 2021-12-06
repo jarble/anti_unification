@@ -7,4 +7,4 @@ Given two Prolog terms, this predicate will produce a term that can be unified w
     :- set_prolog_flag(double_quotes,chars).
     :- use_module(anti_unification).
 
-    main :- anti_unification(3<6,5<6,C),writeln(C).
+    main :- anti_unification(3<6,5<7,C),writeln(C).
